@@ -37,8 +37,8 @@ $(document).ready(function() {
             words.addClass('hidden')
             letter.css('transform', 'translateY(0px)');
             letter.css('z-index', 10);
-            letter.css('height', '520px')
-            letter.css('top', '-150px')  // Change z-index to 10 after animation
+            letter.css('height', '400px')
+            letter.css('top', '-100px')  // Change z-index to 10 after animation
         }, 1000);
     }
 
