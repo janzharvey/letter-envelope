@@ -313,18 +313,4 @@ body {
     font-family: "Caveat", sans-serif;
     z-index: 10;
 }
-.footer-text{
-    position: absolute;
-    z-index: 1;
-    top: 250px;
-    width: 100%;
-}
 
-
-
-.footer-text p{
-    text-align: center;
-    font-size: 2.4rem;
-    font-family: 'Caveat', sans-serif;
-    color: #606060;
-}
