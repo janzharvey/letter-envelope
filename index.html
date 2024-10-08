@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/envelop.css" rel="stylesheet">
+    <link href="/css/envelop.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Document</title>
 </head>
@@ -17,14 +17,23 @@
             </div>
             <div class="front flap"></div>
             <div class="front pocket"></div>
+            
             <div class="letter" id="letter" >
                 <div class="read-button">
                     <p id="">Read Letter</p>
                 </div>
                 <div class="parrot hidden" id="parrot">
-                    <img src="img/Parrot.png">
-                    <p>AUNTIE MUNIK</p>
-                    
+                    <div class="text-header">
+                        <p>Hi Ma'am/Sir</p>
+                    </div>
+                    <div class="text-body">
+                        <p>You’re invited to celebrate a special day as we honor my own birthday! Join us for a fun-filled gathering with friends, laughter, and unforgettable memories.</p>
+                    </div>
+                    <div class="text-footer">
+                        <p>Date: October 11, 2024 Friday</p>
+                        <p>Time: 4:30 PM</p>
+                        <p>Location: @ <a href="https://www.google.com/maps/place/12+Peace,+Quezon+City,+Metro+Manila/@14.6705945,121.0064473,18z/data=!3m1!4b1!4m6!3m5!1s0x3397b6be4ed6b8eb:0xcc40815741f6fb60!8m2!3d14.670593!4d121.0071868!16s%2Fg%2F11tcwl7st9?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank">Madam Erika Ligot's House</a></p>
+                    </div>            
                 </div>
                
                 <div class="words line1"></div>
@@ -39,8 +48,9 @@
             </div>
             <div class="footer-text">
                 <p>I have a letter for you!</p>
-            </div>  
+            </div>       
         </div>
+        
     </div>
 
     <div class="overlay" id="overlay" onclick="hidePopup()"></div>
@@ -50,7 +60,7 @@
         <button onclick="hidePopup()">Close</button>
     </div>
 
-    <script src="js/envelop.js"></script>
+    <script src="/js/envelop.js"></script>
 
 
  
