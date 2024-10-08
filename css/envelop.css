@@ -2,8 +2,8 @@
 
 #envelope {
     position: relative;
-    width: 620px;
-    height: 320px;
+    width: 420px;
+    height: 250px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     margin-left: auto;
@@ -19,16 +19,16 @@
     z-index: 3;
 }
 .flap {
-    border-left: 310px solid transparent;
-    border-right: 310px solid transparent;
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
     border-bottom: 82px solid transparent;
     border-top: 160px solid #fd557f;
     transform-origin: top;
 }
 .pocket {
-    border-left: 310px solid #fb6f92;
-    border-right: 310px solid #fb6f92;
-    border-bottom: 160px  solid #fb6f92;
+    border-left: 210px solid #fb6f92;
+    border-right: 210px solid #fb6f92;
+    border-bottom: 100px  solid #fb6f92;
     border-top: 160px solid transparent;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -36,7 +36,7 @@
 .letter {
     position: relative;
     background-color: #fff;
-    width: 560px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     height: 95%;
